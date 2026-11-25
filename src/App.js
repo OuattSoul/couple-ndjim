@@ -88,7 +88,7 @@ const App = () => {
   const countdownCardRef = useRef(null);
   const footerRef = useRef(null);
 
-  const targetDate = '2026-08-14';
+  const targetDate = '2026-12-19';
 
   useEffect(() => {
     const calculate = () => {
@@ -428,7 +428,7 @@ const App = () => {
         <header ref={heroRef} className="hero" style={{ backgroundImage: `url('/bg.jpg')` }}>
           <div className="hero-content">
             <img ref={heroBismillahRef} src={bismillah} alt="Bismillah errahman errahim" className="hero-bismillah anim-hero" />
-            <h1 ref={heroTitleRef} className="hero-title anim-hero">Yacine & Amel</h1>
+            <h1 ref={heroTitleRef} className="hero-title anim-hero">Njim & Aïssatou</h1>
             <div ref={heroDividerRef} className="hero-divider anim-hero">
               <div className="hero-line"></div>
               <Heart style={{ color: '#5D122B', fill: 'rgba(93,18,43,0.1)' }} size={20} strokeWidth={1} />
@@ -439,8 +439,8 @@ const App = () => {
             </p>
             <div ref={heroDateBlockRef} className="anim-hero">
               <p className="hero-day">Le Vendredi</p>
-              <p className="hero-date">14 AOÛT 2026</p>
-              <p className="hero-time">À 19h</p>
+              <p className="hero-date">19 DECEMBRE 2026</p>
+              <p className="hero-time">À 9h</p>
             </div>
           </div>
           <div className="hero-scroll-indicator">
@@ -507,7 +507,7 @@ const App = () => {
               <p className="lieu-datetime-text">
                 14 Août 2026
                 <span className="lieu-datetime-dot">·</span>
-                <span className="lieu-datetime-time">19:00</span>
+                <span className="lieu-datetime-time">9:00</span>
               </p>
             </div>
 
@@ -515,7 +515,7 @@ const App = () => {
 
             <div className="lieu-address">
               <p className="lieu-city">Sidi Abdellah</p>
-              <p className="lieu-country">Alger, Algérie</p>
+              <p className="lieu-country">Abidjan, Marcory</p>
             </div>
 
             <div className="lieu-map-wrapper">
@@ -567,16 +567,16 @@ const App = () => {
         {/* ════════════ FOOTER ════════════ */}
         <footer className="site-footer">
           <div ref={footerRef} className="footer-inner">
-            <p className="footer-families">Familles Belkacem & Mansouri</p>
+            <p className="footer-families">Familles Njim & Bah</p>
             <div className="footer-divider"></div>
             <span className="footer-credit">Made with love by </span>
             <a
-              href="https://www.instagram.com/digital.invites.dz?igsh=ajZkZW41dXlkd3Q3"
+              href="https://www.facebook.com/souleymane-ouattara"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-link"
             >
-              <span className="footer-credit">Digital Invitation</span>
+              <span className="footer-credit">Soul'man</span>
             </a>
           </div>
         </footer>
